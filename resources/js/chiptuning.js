@@ -1,6 +1,6 @@
 const url = 'http://case-harveen.vm/api/';
 const homePage = 'http://case-harveen.vm/chiptuning/';
-const document = $(document);
+
 const body = $("body");
 
 const brandsId = "#brands";
@@ -150,7 +150,7 @@ function setUrlSelected() {
     }
 }
 
-document.ready(() => {
+$(document).ready(() => {
     getAndSetBrands();
     setUrlSelected();
 });
