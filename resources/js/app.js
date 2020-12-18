@@ -1,3 +1,3 @@
 require('./bootstrap');
-window.$ = require('jquery');
+// window.$ = require('jquery');
 // require('./chiptuning');
